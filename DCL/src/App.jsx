@@ -14,6 +14,7 @@ import EvenOdd from "./components/EvenOdd";
 import FontSize from "./components/FontSize";
 import HideShow from "./components/HideShow";
 import InputField from "./components/InputField";
+import StudentDetails from "./components/StudentDetails";
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <EvenOdd/> */}
       {/* <FontSize/> */}
       {/* <HideShow/> */}
-      <InputField/>
+      {/* <InputField/> */}
+      <StudentDetails/>
     </>
   );
 }
