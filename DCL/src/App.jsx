@@ -13,6 +13,7 @@ import CharacterCounter from "./components/ChacterCounter";
 import EvenOdd from "./components/EvenOdd";
 import FontSize from "./components/FontSize";
 import HideShow from "./components/HideShow";
+import InputField from "./components/InputField";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <CharacterCounter/> */}
       {/* <EvenOdd/> */}
       {/* <FontSize/> */}
-      <HideShow/>
+      {/* <HideShow/> */}
+      <InputField/>
     </>
   );
 }
