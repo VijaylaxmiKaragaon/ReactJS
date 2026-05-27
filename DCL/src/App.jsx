@@ -16,6 +16,7 @@ import HideShow from "./components/HideShow";
 import InputField from "./components/InputField";
 import StudentDetails from "./components/StudentDetails";
 import LoginLogout from "./components/LoginLogout";
+import LikeButton from "./components/LikeButton";
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
       {/* <HideShow/> */}
       {/* <InputField/> */}
       {/* <StudentDetails/> */}
-      <LoginLogout/>
+      {/* <LoginLogout/> */}
+      <LikeButton/>
     </>
   );
 }
