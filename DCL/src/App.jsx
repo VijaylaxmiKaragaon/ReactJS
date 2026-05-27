@@ -9,6 +9,7 @@ import May131 from './components/may131';
 import Subcription from './components/subcription';
 import StateComp from './components/StateComp';
 import BackgroundColor from "./components/BackgroundColor";
+import CharacterCounter from "./components/ChacterCounter";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <DecreaseCounter/> */}
       {/* <ToggleText/> */}
       {/* <StudentName/> */}
-      <BackgroundColor/>
+      {/* <BackgroundColor/> */}
+      <CharacterCounter/>
     </>
   );
 }
