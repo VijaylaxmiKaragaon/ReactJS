@@ -12,6 +12,7 @@ import BackgroundColor from "./components/BackgroundColor";
 import CharacterCounter from "./components/ChacterCounter";
 import EvenOdd from "./components/EvenOdd";
 import FontSize from "./components/FontSize";
+import HideShow from "./components/HideShow";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <BackgroundColor/> */}
       {/* <CharacterCounter/> */}
       {/* <EvenOdd/> */}
-      <FontSize/>
+      {/* <FontSize/> */}
+      <HideShow/>
     </>
   );
 }
