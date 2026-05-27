@@ -10,6 +10,7 @@ import Subcription from './components/subcription';
 import StateComp from './components/StateComp';
 import BackgroundColor from "./components/BackgroundColor";
 import CharacterCounter from "./components/ChacterCounter";
+import EvenOdd from "./components/EvenOdd";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <ToggleText/> */}
       {/* <StudentName/> */}
       {/* <BackgroundColor/> */}
-      <CharacterCounter/>
+      {/* <CharacterCounter/> */}
+      <EvenOdd/>
     </>
   );
 }
