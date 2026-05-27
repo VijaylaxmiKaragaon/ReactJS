@@ -1,5 +1,6 @@
 import React from "react";
 import DecreaseCounter from './components/DecreaseCounter';
+import ToggleText from "./components/ToggleText";
 // import CounterApp from './components/CounterApp';
 // import May132 from './components/May132';
 // import May13 from './components/may13';
@@ -15,7 +16,8 @@ function App() {
       {/* <May131/> */}
       {/* <May132/> */}
       {/* <CounterApp/> */}
-      <DecreaseCounter/>
+      {/* <DecreaseCounter/> */}
+      <ToggleText/>
     </>
   );
 }
