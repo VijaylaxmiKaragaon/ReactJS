@@ -11,6 +11,7 @@ import StateComp from './components/StateComp';
 import BackgroundColor from "./components/BackgroundColor";
 import CharacterCounter from "./components/ChacterCounter";
 import EvenOdd from "./components/EvenOdd";
+import FontSize from "./components/FontSize";
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
       {/* <StudentName/> */}
       {/* <BackgroundColor/> */}
       {/* <CharacterCounter/> */}
-      <EvenOdd/>
+      {/* <EvenOdd/> */}
+      <FontSize/>
     </>
   );
 }
