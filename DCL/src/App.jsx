@@ -15,6 +15,7 @@ import FontSize from "./components/FontSize";
 import HideShow from "./components/HideShow";
 import InputField from "./components/InputField";
 import StudentDetails from "./components/StudentDetails";
+import LoginLogout from "./components/LoginLogout";
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       {/* <FontSize/> */}
       {/* <HideShow/> */}
       {/* <InputField/> */}
-      <StudentDetails/>
+      {/* <StudentDetails/> */}
+      <LoginLogout/>
     </>
   );
 }
