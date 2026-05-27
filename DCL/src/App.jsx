@@ -18,6 +18,7 @@ import StudentDetails from "./components/StudentDetails";
 import LoginLogout from "./components/LoginLogout";
 import LikeButton from "./components/LikeButton";
 import LightToggle from "./components/LightToggle";
+import EligibleToVote from "./components/Conditional_Rendering/EligibleToVote";
 
 function App() {
   return (
@@ -39,7 +40,8 @@ function App() {
       {/* <StudentDetails/> */}
       {/* <LoginLogout/> */}
       {/* <LikeButton/> */}
-      <LightToggle/>
+      {/* <LightToggle/> */}
+      <EligibleToVote/>
     </>
   );
 }
