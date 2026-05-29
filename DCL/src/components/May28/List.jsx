@@ -5,7 +5,7 @@ function List(){
     return(
         <>
         {
-            <ul>
+            <ul style={{paddingLeft:"20px"}}>
                 {
                     Fet.map((x)=>{
                         return <li>{x}</li>

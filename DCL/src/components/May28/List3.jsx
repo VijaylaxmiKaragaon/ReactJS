@@ -5,7 +5,7 @@ function List3(){
     return(
         <>
         {
-            <ol>
+            <ol style={{paddingLeft:"20px"}}>
                 {
                     Fet.map((x)=>{
                         if(x%2!=0){
