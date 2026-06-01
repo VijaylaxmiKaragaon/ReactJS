@@ -1,11 +1,14 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function SignUp() {
   return (
     <div>
-      <button>SignUp</button>
+     <h2>
+        SignUp Page:
+     </h2>
     </div>
-  )
+  );
 }
 
-export default SignUp
+export default SignUp;

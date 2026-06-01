@@ -1,23 +1,48 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
     <div>
-      <h3>Login Page:</h3>
+      <h2>Login Page</h2>
+
       <table>
-        <tr>
-            <td><input type="email" name="" id="" placeholder='Enter your email'/></td>
-        </tr>
-        <tr>
-            <td><input type="password" name="" id=""  placeholder='Enter your password'/></td>
-        </tr>
-        <tr>
-            <td><button>Login</button></td>
-        </tr>
+        <tbody>
+          <tr>
+            <td>
+              <input
+                type="email"
+                placeholder="Enter your email"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input
+                type="password"
+                placeholder="Enter your password"
+              />
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <Link to="/home">
+                <button>Login</button>
+              </Link>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              New User? <Link to="/signup">Sign Up</Link>
+            </td>
+          </tr>
+        </tbody>
       </table>
-      
     </div>
-  )
+  );
 }
 
-export default Login
+export default Login;
