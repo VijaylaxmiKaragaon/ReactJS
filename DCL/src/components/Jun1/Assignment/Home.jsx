@@ -7,9 +7,9 @@ function Home() {
   return (
     <div>
       <ul>
-        <li to="/Home">Home</li>
-        <li to="/About">About</li>
-        <li to="/Contact">Contact</li>
+        <li><Link to="/Home">Home</Link></li>
+        <li><Link to="/About">About</Link></li>
+        <li><Link to="/Contact">Contact</Link></li>
       </ul>
     </div>
   )
