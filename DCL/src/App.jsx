@@ -1,6 +1,7 @@
 import React from "react";
 import Count from "./components/Hooks/count/Count";
-import Task1 from "./components/Hooks/Task1/Task1";
+import Task1 from "./components/Hooks/Tasks/Task1";
+import DecreaseCounter from "./components/Hooks/Tasks/DecreaseCounter";
 // import {BrowserRouter,Routes,Route} from 'react-router-dom';
 // import Home from "./components/Jun1/Assignment/Home";
 // import About from "./components/Jun1/Assignment/About";
@@ -25,7 +26,7 @@ function App() {
      </Routes>
      </BrowserRouter> */}
 
-     <Task1/>
+    <DecreaseCounter/>
      
     </>
   );
