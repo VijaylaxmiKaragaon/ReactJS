@@ -8,6 +8,7 @@ import BackgroundColorChange from "./components/Hooks/Tasks/BackgroundColorChang
 import HideandShowPara from "./components/Hooks/Tasks/HideandShowPara";
 import StudentNameDisplay from "./components/Hooks/Tasks/StudentNameDisplay";
 import LikeButton from "./components/AssignmentTasks/LikeButton";
+import InputFieldDisplay from "./components/Hooks/Tasks/InputFieldDisplay";
 // import {BrowserRouter,Routes,Route} from 'react-router-dom';
 // import Home from "./components/Jun1/Assignment/Home";
 // import About from "./components/Jun1/Assignment/About";
@@ -32,7 +33,7 @@ function App() {
      </Routes>
      </BrowserRouter> */}
 
-    <LikeButton/>
+    <InputFieldDisplay/>
      
     </>
   );
