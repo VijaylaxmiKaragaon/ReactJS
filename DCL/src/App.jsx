@@ -10,6 +10,9 @@ import StudentNameDisplay from "./components/Hooks/Tasks/StudentNameDisplay";
 import LikeButton from "./components/AssignmentTasks/LikeButton";
 import InputFieldDisplay from "./components/Hooks/Tasks/InputFieldDisplay";
 import MultipleStateValues from "./components/Hooks/Tasks/MultipleStateValues";
+import Addskills from "./components/Hooks/Jun9/Addskills";
+import ChangeAge from "./components/Hooks/Jun9/ChangeAge";
+import Task from "./components/Hooks/Jun9/Task";
 // import {BrowserRouter,Routes,Route} from 'react-router-dom';
 // import Home from "./components/Jun1/Assignment/Home";
 // import About from "./components/Jun1/Assignment/About";
@@ -34,7 +37,7 @@ function App() {
      </Routes>
      </BrowserRouter> */}
 
-    <MultipleStateValues/>
+    <Task/>
      
     </>
   );
