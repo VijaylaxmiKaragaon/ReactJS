@@ -1,20 +1,19 @@
 import React, { useEffect, useState } from 'react'
 
 function FetchData() {
-    const [comments,setComments] = useState([])
+    const [users,setUsers] = useState([])
     useEffect(()=>{
-        fetch("https://dummyjson.com/comments"
+        fetch("https://jsonplaceholder.typicode.com/users")
             .then(responce=>responce.json())
-            .then(data=>setComments(data))
-        )
+            .then(data=>setUsers(data))
     })
   return (
     <div>
       {
         <ul>
             {
-                comments.map((comment,index)=>{
-                    return <li key={index}>{comment.body}</li>
+                users.map((user,index)=>{
+                    return <li key={index}>{user.name}</li>
                 })
             }
         </ul>

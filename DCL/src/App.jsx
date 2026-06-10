@@ -13,6 +13,7 @@ import MultipleStateValues from "./components/Hooks/Tasks/MultipleStateValues";
 import Addskills from "./components/Hooks/Jun9/Addskills";
 import ChangeAge from "./components/Hooks/Jun9/ChangeAge";
 import Task from "./components/Hooks/Jun9/Task";
+import FetchData from "./components/Hooks/Jun10/FetchData";
 // import {BrowserRouter,Routes,Route} from 'react-router-dom';
 // import Home from "./components/Jun1/Assignment/Home";
 // import About from "./components/Jun1/Assignment/About";
@@ -37,7 +38,7 @@ function App() {
      </Routes>
      </BrowserRouter> */}
 
-    <Task/>
+    <FetchData/>
      
     </>
   );
