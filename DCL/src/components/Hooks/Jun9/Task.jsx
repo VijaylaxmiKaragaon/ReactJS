@@ -11,11 +11,13 @@ function Task() {
   return (
     <div>
       <ul>
-        {
-          arr.map((person,ind)=>{
-            <li key={ind}>{person.name} - {person.age}</li>
-          })
-        }
+        {arr.map((person, ind) => {
+          return (
+            <li key={ind}>
+              {person.name} - {person.age}
+            </li>
+          );
+        })}
       </ul>
       <button onClick={changeArr}>Add Person</button>
     </div>
