@@ -18,6 +18,15 @@ function FetchData() {
             }
         </ul>
       }
+        <hr />
+        <ol>
+          {
+            users.map((user,index)=>{
+              return <li key={index}>{`${user.username} -> ${user.email}`}</li>
+            })
+          }
+        </ol>
+      
     </div>
   )
 }
