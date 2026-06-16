@@ -17,6 +17,7 @@ import FetchData from "./components/Hooks/Jun10/FetchData";
 import FetchDataInTableFrom from "./components/Hooks/Jun10/FetchDataInTableFrom";
 import SettingTimer from "./components/Hooks/DomManupulation/SettingTimer";
 import ControlledForm from "./components/Hooks/ControlledForm/controlledFrom";
+import UserInputForm from "./components/Hooks/ControlledForm/UserInputForm";
 // import {BrowserRouter,Routes,Route} from 'react-router-dom';
 // import Home from "./components/Jun1/Assignment/Home";
 // import About from "./components/Jun1/Assignment/About";
@@ -41,7 +42,7 @@ function App() {
      </Routes>
      </BrowserRouter> */}
 
-   <ControlledForm/>
+   <UserInputForm/>
      
     </>
   );
