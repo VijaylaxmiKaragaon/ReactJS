@@ -8,7 +8,10 @@ function UserInputForm() {
     const handleForm = () =>{
         if(name.length < 5){
             setError("Must be more that 5 characters");
-        } else{
+        } else if(password.length==15){
+            setError("Password must be in 15 Charcters")
+        }
+           else {
             setError('');
             alert('Done!');
         }
