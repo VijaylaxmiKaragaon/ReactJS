@@ -25,25 +25,26 @@ import UserInputForm from "./components/Hooks/ControlledForm/UserInputForm";
 // import Login from "./components/Jun1/Login";
 // import Home from "./components/Jun1/Home";
 // import SignUp from "./components/Jun1/SignUp";
+import Stylesheet from "./components/Styling&BasicCSS/Stylesheet";
 
 
 function App() {
   return (
     <>
-     {/* <BrowserRouter>
+      {/* <BrowserRouter>
      <Routes> */}
       {/* <Route path="/" element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path="/signup" element={<SignUp />} /> */}
 
-        {/* <Route path="/" element={<Home/>}></Route>
+      {/* <Route path="/" element={<Home/>}></Route>
         <Route path="/About" element={<About/>}></Route>
         <Route path="/Contact" element={<Contact/>}></Route>
      </Routes>
      </BrowserRouter> */}
 
-   <UserInputForm/>
-     
+      {/* <UserInputForm/> */}
+      <StyleSheet primary={false}/>
     </>
   );
 }
