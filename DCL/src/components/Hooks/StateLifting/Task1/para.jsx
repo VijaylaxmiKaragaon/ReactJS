@@ -1,6 +1,6 @@
 import React from 'react'
 
-function para({username}) {
+function Para({username}) {
   return (
     <div>
       <p>{username}</p>
@@ -8,4 +8,4 @@ function para({username}) {
   )
 }
 
-export default para
+export default Para
