@@ -2,6 +2,8 @@ import React, { lazy, Suspense } from "react";
 import Lazzy from "./components/Hooks/LazyLoading/Lazzy";
 import UseMemo from "./components/Hooks/UseMemo/UseMemo";
 import UseCustomHook from "./components/Hooks/CustomHook/UseCustomHook";
+import Message from "./components/Hooks/HigerOrderComponent/Message";
+import Home from "./components/Hooks/HigerOrderComponent/Home";
 // import Para from "./components/Hooks/StateLifting/Task1/para";
 // import Btn from "./components/Hooks/StateLifting/Task1/Btn";
 
@@ -43,7 +45,6 @@ function App() {
       {/* <h1>{count}</h1>
       <button onClick={increment}>+</button>
       <button onClick={decrement}>-</button> */}
-
       {FinalComp}
     </>
   );
