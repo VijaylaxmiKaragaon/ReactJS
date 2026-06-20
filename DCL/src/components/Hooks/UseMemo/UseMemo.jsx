@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React, { useMemo, useState } from 'react'
 
 function UseMemo() {
     const [count,setCount] = useState(0)
-    const square = () =>{
+    const square = useMemo(() =>{
         return count * count;
-    }
+    })
   return (
     <div>
       <p>count is : {count}</p>

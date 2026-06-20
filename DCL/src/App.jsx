@@ -1,5 +1,6 @@
 import React, { lazy,Suspense } from "react";
 import Lazzy from "./components/Hooks/LazyLoading/Lazzy";
+import UseMemo from "./components/Hooks/UseMemo/UseMemo";
 // import Para from "./components/Hooks/StateLifting/Task1/para";
 // import Btn from "./components/Hooks/StateLifting/Task1/Btn";
 
@@ -28,9 +29,11 @@ function App() {
       {/* <Para username={name}/>
       <Btn username={name} setusername={setname}/> */}
 
-      <Suspense fallback={<h1>Loading.....</h1>}>
+      {/* <Suspense fallback={<h1>Loading.....</h1>}>
       <Lazzy/>
-      </Suspense>
+      </Suspense> */}
+
+      <UseMemo/>
     </>
   );
 }
